@@ -1,3 +1,21 @@
+# Hello I'm Shayu, this is my first ReactJS project
+
+Steps followed to build this:
+1. Built barebones tic-tac-toe referring to tutorial https://reactjs.org/tutorial/tutorial.html, which involved:
+    - `npx create-react-app tic-tac-toe-v1`
+    - Following tutorial thenceforth
+2. Modified index.js to add various much needed UI components (yes, I'm aware that usually code is divided among multiple JS files and ultimately rendered to the DOM once imported to index.js, though allowed myself some leeway as it's my first ReactJS project)
+3. Modified index.css to enable the above further: used flexbox, added proper positioning, palette, smooth-transition-animation
+
+Anyhoo, that'll be all.
+Shayu out
+
+Proceeding is the original README.md included with create-react-app.
+
+---
+---
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
