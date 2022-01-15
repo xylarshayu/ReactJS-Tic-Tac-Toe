@@ -43,7 +43,7 @@ a:hover {
       width: 90%;
       margin-top: 2vh;
   }
-  
+
   .board-row:after {
     clear: both;
     content: "";
@@ -52,6 +52,7 @@ a:hover {
   
   .game-status {
     text-align: center;
+    font-weight: bold;
 }
   
   .square {
@@ -68,15 +69,24 @@ a:hover {
     padding: 0;
     text-align: center;
     width: 13vh;
+    transition-property: font-size;
+    transition-duration: 700ms;
   }
   
+  .square:active {
+    font-size: 20vh;
+    transition-property: font-size;
+    transition-duration: 700ms;
+
+  }
+
   .square:focus {
     outline: none;
     color: aliceblue;
   }
-  
-  .kbd-navigation .square:focus {
-    background: #ddd;
+
+  .square:hover {
+    background-color: #0F1A1A;
   }
   
   .game {

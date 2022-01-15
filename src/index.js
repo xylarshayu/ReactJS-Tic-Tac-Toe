@@ -101,6 +101,8 @@ function Square(props) {
         let status;
         if (winner) {
             status = 'Winner: ' + winner;
+        } else if (this.state.stepNumber===9){
+          status = 'Stalemate';
         } else {
             status = 'Next Player: ' + (this.state.xIsNext ? '⨉' : 'O');
         }
@@ -148,7 +150,7 @@ function Square(props) {
       </div>
       <br/>
       <Game />
-      <footer> <a href="https://github.com/xylarshayu">My git</a></footer>
+      <footer> <a href="https://github.com/xylarshayu" target="_blank"> My git</a></footer>
   </div>;
 
 
