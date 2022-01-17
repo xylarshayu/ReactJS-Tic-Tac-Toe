@@ -39,8 +39,8 @@ a:hover {
   ol {
       list-style-type: none;
       display: flex;
-      justify-content: space-between;
-      width: 90%;
+      justify-content: space-around;
+      padding: 1vw 20vw 1vw 20vw;
       margin-top: 2vh;
   }
 
