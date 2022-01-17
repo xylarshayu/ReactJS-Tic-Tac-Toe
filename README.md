@@ -1,5 +1,7 @@
 # Hello I'm Shayu, this is my first ReactJS project
 
+## Deployed here: https://tictactoe-v1.herokuapp.com/
+
 Steps followed to build this:
 1. Built barebones tic-tac-toe referring to tutorial https://reactjs.org/tutorial/tutorial.html, which involved:
     - `npx create-react-app tic-tac-toe-v1`
@@ -7,7 +9,7 @@ Steps followed to build this:
 2. Modified index.js to add various much needed UI components (yes, I'm aware that usually code is divided among multiple JS files and ultimately rendered to the DOM once imported to index.js, though allowed myself some leeway as it's my first ReactJS project)
 3. Modified index.css to enable the above further: used flexbox, added proper positioning, palette, smooth-transition-animation
 
-A demonstration:
+Vid:
 
 
 https://user-images.githubusercontent.com/95334503/149641186-02a20c82-ba26-483e-87ea-a2891b7f3ca5.mp4
